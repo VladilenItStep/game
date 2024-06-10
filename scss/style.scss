@@ -16,6 +16,7 @@ body {
     font-weight: 600;
     font-style: normal;
     font-size: 2rem;
+    overflow: hidden;
 }
 
 .card {
@@ -75,6 +76,7 @@ body {
     background: linear-gradient(114deg, #29323c -4%, #485563 200%);
     box-shadow: -8px -8px 20px #29323c, 10px 7px 20px #485563;
     border-radius: 30px;
+    position: relative;
 }
 
 .modal {
@@ -83,7 +85,6 @@ body {
     right: 0;
     bottom: 0;
     left: 0;
-    // overflow: hidden;
     background-color: rgba(255, 255, 255, 0.1);
     display: none; // none
     justify-content: center;
@@ -120,4 +121,7 @@ body {
     border-radius: 50%;
     background-color: red;
     cursor: pointer;
+    position: absolute;
+    top: 0;
+    left: 0;
 }
